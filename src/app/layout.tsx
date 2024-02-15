@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Poppins({ weight: "400", subsets: ["latin"] });
+const dm_sans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Frontend Assessment",
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={dm_sans.className}>
         <main className="bg-cust-teal-50 min-h-screen">{children}</main>
       </body>
     </html>
