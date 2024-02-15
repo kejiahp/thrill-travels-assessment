@@ -12,11 +12,11 @@ export default function Home() {
         <TopBar />
         <Filter />
 
-        <div className="flex gap-3">
-          <div className="w-[70%]">
+        <div className="flex gap-5">
+          <div className="w-[65%]">
             <Listing />
           </div>
-          <div className="w-[30%]">
+          <div className="w-[35%]">
             <Depiction />
           </div>
         </div>

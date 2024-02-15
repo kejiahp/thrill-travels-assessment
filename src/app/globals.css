@@ -10,3 +10,14 @@
 .item_direction {
   direction: ltr;
 }
+
+.tooltip_arrow::after {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  margin-left: -9px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent transparent #c99c33 transparent;
+}

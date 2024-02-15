@@ -86,7 +86,7 @@ function ListItem({
         noBorder ? "" : "border-b-2 border-dashed border-cust-teal-50"
       } ${noBorder ? "" : afterStyling} ${noBorder ? "" : beforeStyling}`}
     >
-      <div className="relative overflow-hidden w-[150px] h-[150px]">
+      <div className="relative overflow-hidden w-[130px] h-[130px]">
         <Image
           src={image}
           className="object-contain object-center"
@@ -97,7 +97,7 @@ function ListItem({
       </div>
 
       <span className="flex flex-col gap-3 items-center justify-center">
-        <h1 className="text-3xl font-medium">{fromLocation}</h1>
+        <h1 className="text-2xl 2xl:text-3xl font-medium">{fromLocation}</h1>
         <p className="font-medium">{startTime}</p>
       </span>
       <span className="flex flex-col items-center justify-center">
@@ -106,7 +106,7 @@ function ListItem({
         <p className="font-medium">{variant}</p>
       </span>
       <span className="flex flex-col gap-3 items-center justify-center">
-        <p className="text-3xl font-medium ">{toLocation}</p>
+        <p className="text-2xl 2xl:text-3xl font-medium ">{toLocation}</p>
         <p className="font-medium">{endTime}</p>
       </span>
       <span className="flex flex-col gap-3 items-end justify-center">
