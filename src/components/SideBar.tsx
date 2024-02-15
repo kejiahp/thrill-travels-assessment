@@ -27,7 +27,7 @@ export default function SideBar() {
             src="/images/SideBarNav.png"
             alt="side bar map"
             fill
-            sizes="100vw"
+            sizes="(min-width: 768px) 100vw, 10vw"
             className="object-contain object-center"
           />
         </div>

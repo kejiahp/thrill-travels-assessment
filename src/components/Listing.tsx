@@ -92,7 +92,7 @@ function ListItem({
           className="object-contain object-center"
           alt={provider}
           fill
-          sizes="100vw"
+          sizes="(min-width: 768px) 100vw, 100vw"
         />
       </div>
 

@@ -14,6 +14,7 @@ export default function Avatar({ image }: Props) {
           alt="avatar"
           className="object-cover object-center bg-white"
           fill
+          priority
           sizes="(max-width: 768px) 70vw, 100vw"
         />
       </div>

@@ -25,7 +25,7 @@ export default function Depiction() {
             alt="from location to location"
             fill
             className="object-contain object-center"
-            sizes="100vw"
+            sizes="(min-width: 768px) 100vw, 100vw"
           />
         </div>
       </div>

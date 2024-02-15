@@ -23,7 +23,7 @@ function ActiveUserImage({ image }: { image: string }) {
         src={image}
         alt="active user"
         fill
-        sizes="50vw"
+        sizes="(min-width: 768px) 50vw,50vw"
         className="object-cover object-center"
       />
     </div>
