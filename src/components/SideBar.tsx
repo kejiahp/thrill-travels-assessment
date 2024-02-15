@@ -7,9 +7,9 @@ import Image from "next/image";
 export default function SideBar() {
   return (
     <aside className="list_container w-[280px] overflow-hidden fixed top-0 left-0 h-full bg-cust-teal-100 rounded-tr-[50px] rounded-br-[50px]">
-      <section className="item_direction py-[40px] px-[30px] bg-cust-teal-200 text-white flex gap-3 flex-col items-center justify-center">
+      <section className="item_direction py-[40px] px-[30px] bg-cust-teal-200 text-white flex  flex-col items-center justify-center">
         <Avatar image="/images/Avatar.png" />
-        <h1 className="text-xl">ALEX JOHNSON</h1>
+        <h1 className="text-xl mt-3">ALEX JOHNSON</h1>
         <p className="text-xs">alex.johnson@gmail.com</p>
       </section>
 
