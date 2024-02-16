@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+/**
+ * Active users on the sidebar
+ */
 export default function AllActiveUsers() {
   return (
     <div>
@@ -16,6 +19,9 @@ export default function AllActiveUsers() {
   );
 }
 
+/*
+ * AllActiveUsers helper component
+ */
 function ActiveUserImage({ image }: { image: string }) {
   return (
     <div className="relative overflow-hidden w-[40px] h-[40px] rounded-full border-2 border-cust-teal-100 -ml-4">
@@ -30,6 +36,9 @@ function ActiveUserImage({ image }: { image: string }) {
   );
 }
 
+/*
+ * AllActiveUsers helper component
+ */
 function ActiveUserText({ text }: { text: string }) {
   return (
     <div className="relative w-[40px] h-[40px] rounded-full border-2 border-cust-teal-100 -ml-4 bg-cust-yellow-200 flex items-center justify-center">

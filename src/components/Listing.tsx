@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
+/**
+ * Travel options listing
+ */
 export default function Listing() {
   return (
     <div className="bg-white rounded-3xl overflow-hidden">
@@ -53,6 +56,9 @@ export default function Listing() {
   );
 }
 
+/**
+ * Listing helper
+ */
 function ListItem({
   image,
   fromLocation,
@@ -76,6 +82,7 @@ function ListItem({
   provider: string;
   noBorder?: boolean;
 }) {
+  //Card like styling for the listitem using the before and after pseudo-elements
   const afterStyling =
     "after:content-[''] after:absolute after:w-[30px] after:h-[30px] after:-bottom-4 after:-right-4 after:bg-cust-teal-50 after:rounded-full";
   const beforeStyling =

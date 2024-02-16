@@ -5,6 +5,9 @@ type Props = {
   image: string;
 };
 
+/**
+ * User avatar on the sidebar
+ */
 export default function Avatar({ image }: Props) {
   return (
     <div className="w-[90px] h-[90px] rounded-full border-2 border-cust-yellow-200 flex justify-center items-center">

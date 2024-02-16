@@ -4,6 +4,9 @@ import AllActiveUsers from "./ActiveUser";
 import AllNavBtns from "./NavBtn";
 import Image from "next/image";
 
+/**
+ * Side bar containing all the navigation links, user avatar and info on all active users.
+ */
 export default function SideBar() {
   return (
     <aside className="list_container w-[280px] overflow-hidden fixed top-0 left-0 h-full bg-cust-teal-100 rounded-tr-[50px] rounded-br-[50px]">

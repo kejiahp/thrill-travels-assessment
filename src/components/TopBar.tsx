@@ -4,6 +4,9 @@ import { LuArrowLeftRight } from "react-icons/lu";
 import { IoCalendarOutline, IoPersonSharp } from "react-icons/io5";
 import { MdChair } from "react-icons/md";
 
+/**
+ * Details bar at the top of the screen
+ */
 export default function TopBar() {
   return (
     <nav className="p-5 rounded-3xl bg-white font-bold text-xs text-cust-teal-100 grid grid-cols-4 grid-rows-2 gap-5 ">

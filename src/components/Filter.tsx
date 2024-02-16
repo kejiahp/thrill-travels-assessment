@@ -1,6 +1,9 @@
 import React from "react";
 import { IoChevronDown } from "react-icons/io5";
 
+/**
+ * Travel listing filter
+ */
 export default function Filter() {
   return (
     <div className="font-bold text-xs justify-between text-cust-teal-100 my-5 flex items-center ">

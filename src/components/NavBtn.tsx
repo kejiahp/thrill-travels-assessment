@@ -9,6 +9,9 @@ import {
 import { SlPlane } from "react-icons/sl";
 import { BsGear } from "react-icons/bs";
 
+/*
+ * All sidebar navigation links
+ */
 export default function AllNavBtns() {
   return (
     <>
@@ -42,6 +45,9 @@ export default function AllNavBtns() {
   );
 }
 
+/**
+ * AllNavBtns helper
+ */
 function NavBtn({
   icon: Icon,
   title,

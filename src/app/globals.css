@@ -2,15 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Gives me a left aligned scroll bar on the sidebar */
 .list_container {
   direction: rtl;
   overflow-y: auto;
 }
 
+/* Resets the alignment of the sidebar's items to defualt after disturtion from the list_container class */
 .item_direction {
   direction: ltr;
 }
 
+/* Tooltip arrow styling used in Depiction component */
 .tooltip_arrow::after {
   content: "";
   position: absolute;

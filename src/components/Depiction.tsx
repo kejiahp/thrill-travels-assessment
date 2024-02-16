@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
+/**
+ * Graphical depiction of the travel destination and variation ,NONE-STOP/ONE-STOP e.t.c.
+ */
 export default function Depiction() {
   return (
     <div className="bg-cust-teal-100 h-full rounded-3xl text-white text-xs flex flex-col justify-between gap-3 overflow-hidden">

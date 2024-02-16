@@ -4,6 +4,9 @@ import Listing from "@/components/Listing";
 import SideBar from "@/components/SideBar";
 import TopBar from "@/components/TopBar";
 
+/**
+ * Landing page of the application
+ */
 export default function Home() {
   return (
     <>
