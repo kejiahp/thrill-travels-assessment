@@ -20,6 +20,7 @@ A project depicting the dashboard of a flight booking system in accord to the De
 
   - After dependecies are install
   - To prepare the production build: `npm run build`
+  - To start the production server: `npm run start`
   - Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 - Run the project in a development server:
